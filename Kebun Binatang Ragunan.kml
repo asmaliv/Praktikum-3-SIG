@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Kebun Binatang Ragunan</name>
+    <Style id="poly-000000-1200-77-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Kebun Binatang Ragunan</name>
+      <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              106.8163293,-6.3049979,0
+              106.8162864,-6.3057231,0
+              106.8169301,-6.3069175,0
+              106.816458,-6.3078559,0
+              106.8160718,-6.3077706,0
+              106.8156426,-6.3097327,0
+              106.8161147,-6.3105858,0
+              106.8177026,-6.3101166,0
+              106.8177455,-6.3146381,0
+              106.8165009,-6.3151073,0
+              106.8164151,-6.3160457,0
+              106.818003,-6.316131,0
+              106.8189471,-6.3165149,0
+              106.8191188,-6.3171547,0
+              106.8219512,-6.3174106,0
+              106.8234962,-6.3172827,0
+              106.8236678,-6.3177519,0
+              106.8246119,-6.3177519,0
+              106.8259423,-6.3111403,0
+              106.8264144,-6.311311,0
+              106.8267577,-6.3102446,0
+              106.827101,-6.3085384,0
+              106.824569,-6.3086237,0
+              106.8244832,-6.3064482,0
+              106.8224662,-6.3067042,0
+              106.8205779,-6.3066189,0
+              106.8204492,-6.3058084,0
+              106.8185609,-6.3056804,0
+              106.8183034,-6.3053392,0
+              106.8163293,-6.3049979,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
